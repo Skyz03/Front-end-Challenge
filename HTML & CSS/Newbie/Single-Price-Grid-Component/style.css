@@ -1,0 +1,59 @@
+body {
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.card {
+  margin: 7%;
+}
+
+/* Heading Section */
+
+.heading-section {
+  background-color: white;
+  padding: 3%;
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.heading-title {
+  color: hsl(179, 62%, 43%);
+}
+
+.heading-description {
+  color: hsl(71, 73%, 54%);
+}
+
+.heading-sub-description {
+  color: gray;
+  line-height: 2;
+}
+
+/* Bottom Section */
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sub Left Section */
+
+.sub-section {
+  background-color: hsl(218, 22%, 67%);
+}
+
+.why-section {
+  background-color: Cyan;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
