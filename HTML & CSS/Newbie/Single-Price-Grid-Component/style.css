@@ -1,11 +1,13 @@
 body {
   font-family: "Karla", sans-serif;
-  text-align: center;
+  text-align: left;
   background-color: hsl(204, 43%, 93%);
+  margin: 7%;
 }
 
 .card {
-  margin: 7%;
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* Heading Section */
@@ -13,9 +15,6 @@ body {
 .heading-section {
   background-color: white;
   padding: 3%;
-  text-align: left;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .heading-title {
@@ -35,7 +34,7 @@ body {
 
 .bottom-section {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
 }
@@ -44,10 +43,15 @@ body {
 
 .sub-section {
   background-color: hsl(218, 22%, 67%);
+  padding: 7%;
 }
 
 .why-section {
   background-color: Cyan;
+}
+
+.why-section-heading {
+  padding-left: 7%;
 }
 
 .attribution {
