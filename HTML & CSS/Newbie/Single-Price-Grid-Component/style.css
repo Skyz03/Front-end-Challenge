@@ -45,17 +45,38 @@ body {
   grid-row-end: 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: white;
+  /* padding: 5%; */
 }
 
 /* Sub Left Section */
 
 .sub-section {
-  background-color: hsl(218, 22%, 67%);
+  background-color: #2bb3b1;
   padding: 7%;
 }
 
+.amount {
+  font-size: 2rem;
+}
+
+.amount-text {
+  opacity: 50%;
+  font-weight: 400;
+}
+
+.sign-up-btn {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  place-self: center;
+  padding: 1rem 5rem;
+  border-radius: 15px;
+}
+
+/* Why Right Section */
+
 .why-section {
-  background-color: Cyan;
+  background-color: #4abebd;
 }
 
 .why-section-heading {
