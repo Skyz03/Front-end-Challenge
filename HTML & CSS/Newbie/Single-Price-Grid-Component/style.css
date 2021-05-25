@@ -2,17 +2,23 @@ body {
   font-family: "Karla", sans-serif;
   text-align: left;
   background-color: hsl(204, 43%, 93%);
-  margin: 7%;
+  margin: 6%;
 }
 
 .card {
   width: 50%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 /* Heading Section */
 
 .heading-section {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
   background-color: white;
   padding: 3%;
 }
@@ -33,10 +39,12 @@ body {
 /* Bottom Section */
 
 .bottom-section {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Sub Left Section */
