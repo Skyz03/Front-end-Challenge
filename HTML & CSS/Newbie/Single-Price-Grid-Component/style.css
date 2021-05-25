@@ -20,7 +20,7 @@ body {
   grid-row-start: 1;
   grid-row-end: 2;
   background-color: white;
-  padding: 3%;
+  padding: 3% 5%;
 }
 
 .heading-title {
@@ -46,14 +46,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: white;
-  /* padding: 5%; */
 }
 
 /* Sub Left Section */
 
 .sub-section {
   background-color: #2bb3b1;
-  padding: 7%;
+  padding: 7% 7% 15% 10%;
 }
 
 .amount {
@@ -68,9 +67,11 @@ body {
 .sign-up-btn {
   background-color: hsl(71, 73%, 54%);
   color: white;
-  place-self: center;
-  padding: 1rem 5rem;
-  border-radius: 15px;
+  border: 1px;
+  padding: 1rem 6rem;
+  border-radius: 7px;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 10px black;
 }
 
 /* Why Right Section */
@@ -81,6 +82,16 @@ body {
 
 .why-section-heading {
   padding-left: 7%;
+  padding-top: 7%;
+}
+
+.why-section-des-co {
+  padding: 5% 10%;
+  opacity: 70%;
+}
+.why-section-description {
+  line-height: 0.5;
+  font-size: 13px;
 }
 
 .attribution {
@@ -89,4 +100,46 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1300px) and (min-width: 640px) {
+  .card {
+    width: 100%;
+    margin: 0 auto;
+    display: contents;
+    /* grid-template-columns: 50% 50%; */
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    width: 100%;
+    margin: 0 auto;
+    display: contents;
+  }
+
+  .bottom-section {
+    display: contents;
+    color: white;
+  }
+  .sign-up-btn {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: 1px;
+    padding: 1rem 7rem;
+    border-radius: 7px;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 10px black;
+  }
+
+  .why-section-heading {
+    padding-left: 7%;
+    padding-top: 7%;
+    margin-top: 0;
+  }
+
+  .why-section-description {
+    line-height: 0.5;
+    font-size: 16px;
+  }
 }
