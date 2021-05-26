@@ -6,6 +6,7 @@ body {
 }
 
 .card {
+  border-radius: 15px;
   width: 50%;
   margin: 0 auto;
   display: grid;
@@ -15,11 +16,12 @@ body {
 /* Heading Section */
 
 .heading-section {
+  background-color: white;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  background-color: white;
+  border-radius: 10px 10px 0 0;
   padding: 3% 5%;
 }
 
@@ -52,6 +54,7 @@ body {
 
 .sub-section {
   background-color: #2bb3b1;
+  border-radius: 0 0 0 10px;
   padding: 7% 7% 15% 10%;
 }
 
@@ -68,7 +71,8 @@ body {
   background-color: hsl(71, 73%, 54%);
   color: white;
   border: 1px;
-  padding: 1rem 6rem;
+  height: 25%;
+  width: 100%;
   border-radius: 7px;
   margin-top: 1rem;
   box-shadow: 1px 1px 10px black;
@@ -77,6 +81,7 @@ body {
 /* Why Right Section */
 
 .why-section {
+  border-radius: 0 0 10px 0;
   background-color: #4abebd;
 }
 
@@ -104,16 +109,26 @@ body {
 
 @media (max-width: 1300px) and (min-width: 640px) {
   .card {
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
-    display: contents;
-    /* grid-template-columns: 50% 50%; */
+    /* display: contents; */
+  }
+
+  .sign-up-btn {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: 1px;
+    height: 15%;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 10px black;
   }
 }
 
 @media (max-width: 640px) {
   .card {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     display: contents;
   }
@@ -126,7 +141,7 @@ body {
     background-color: hsl(71, 73%, 54%);
     color: white;
     border: 1px;
-    padding: 1rem 7rem;
+    padding: 1rem 6rem;
     border-radius: 7px;
     margin-top: 1rem;
     box-shadow: 1px 1px 10px black;
