@@ -66,10 +66,29 @@ body {
 }
 
 .icons {
-  align-self: flex-end;
   color: white;
   margin: 5px;
+  position: relative;
+  left: 23rem;
+  top: 8rem;
+  /* border: 1px solid white; */
+}
+a {
+  color: white;
+}
+
+.icon {
+  padding: 2%;
+  margin: 0 1%;
   border: 1px solid white;
+  border-radius: 50%;
+}
+.icon:hover {
+  color: hsl(300, 69%, 71%);
+  padding: 2%;
+  margin: 0 1%;
+  border: 1px solid hsl(300, 69%, 71%);
+  border-radius: 50%;
 }
 
 .attribution {
@@ -81,6 +100,11 @@ body {
 }
 
 @media (max-width: 1024px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    background: url(images/bg-desktop.svg) no-repeat;
+    background-color: hsl(257, 40%, 49%);
+  }
   .container-flex {
     flex-direction: column;
   }
@@ -91,6 +115,22 @@ body {
   .content-section {
     max-width: 100%;
     text-align: center;
+  }
+
+  .icons {
+    color: white;
+    position: static;
+    padding-top: 2.5rem;
+  }
+  a {
+    color: white;
+  }
+
+  .icon {
+    padding: 2%;
+    margin: 0 1%;
+    border: 1px solid white;
+    border-radius: 50%;
   }
 }
 @media (max-width: 640px) {
