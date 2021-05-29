@@ -85,7 +85,7 @@ Thanks to @tediko for the advice.
 - MDN CSS Flexbox 
 - MDN Responsive Website 
 - MDN Responsive Images
-- 
+
 ## Author
 
 - Website - Skyz03
