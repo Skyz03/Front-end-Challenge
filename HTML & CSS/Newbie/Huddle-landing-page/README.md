@@ -50,7 +50,7 @@ I implemented the Flexbox to arrange the layout of the image & the content and s
 - CSS Positioning
 
 ### What I learned
-The main thing i learned from this challenge is that I learned about the use of Flexbox for responsive design rather than just using BOOTSTRAP for the responsive design.
+The main thing i learned from this challenge is that I learned about the use of Flexbox for responsive design rather than just using BOOTSTRAP for the responsive design. Also learned about CSS relative positioning where ```content-section```  is in relative position for the position of the icons nor earlier it was with respect to body. 
 
 ```html
 .container-flex {
@@ -77,7 +77,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-The Website can be made more smooth for responsiveness & the social icons can be added in a better way.
+The Website social icons were improved with the relative position of the container with respect to it rather than with respect with the body.
+Thanks to @tediko for the advice.
 
 ### Useful resources
 
@@ -87,4 +88,8 @@ The Website can be made more smooth for responsiveness & the social icons can be
 - 
 ## Author
 
-- Website - Aakib Shah Sayed
+- Website - Skyz03
+
+## Acknowledgement
+
+Thanks to @tediko for the advice for the social icons section.
