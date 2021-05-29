@@ -68,7 +68,7 @@ body {
   margin: 5px;
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 50px;
   display: flex;
   gap: 10px;
   justify-content: center;
