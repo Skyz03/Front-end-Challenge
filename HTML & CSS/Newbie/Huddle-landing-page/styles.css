@@ -36,6 +36,7 @@ body {
 .content-section {
   max-width: 40%;
   color: white;
+  position: relative;
 }
 
 .content-heading {
@@ -68,25 +69,28 @@ body {
 .icons {
   color: white;
   margin: 5px;
-  position: relative;
-  left: 23rem;
-  top: 8rem;
-  /* border: 1px solid white; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
 }
-a {
-  color: white;
-}
-
 .icon {
-  padding: 2%;
-  margin: 0 1%;
+  color: white;
+  padding: 15% 30%;
+  margin: 0 2%;
   border: 1px solid white;
   border-radius: 50%;
+  text-decoration: none;
 }
 .icon:hover {
   color: hsl(300, 69%, 71%);
-  padding: 2%;
-  margin: 0 1%;
+  padding: 15% 30%;
+  margin: 0 2%;
   border: 1px solid hsl(300, 69%, 71%);
   border-radius: 50%;
 }
@@ -119,18 +123,35 @@ a {
 
   .icons {
     color: white;
-    position: static;
-    padding-top: 2.5rem;
+    margin: 5rem 0;
+    position: relative;
+    bottom: 0;
+    left: 48%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
   }
-  a {
-    color: white;
-  }
-
   .icon {
-    padding: 2%;
-    margin: 0 1%;
+    color: white;
+    padding: 15% 30%;
+    margin: 0 2%;
     border: 1px solid white;
     border-radius: 50%;
+    text-decoration: none;
+  }
+
+  .register-button {
+    border: 0;
+    margin: 3% 0;
+    padding: 3% 10%;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: hsl(257, 40%, 49%);
+    letter-spacing: 0.5px;
+    box-shadow: 1px 7px 8px 5px rgba(0, 0, 0, 0.2);
   }
 }
 @media (max-width: 640px) {
