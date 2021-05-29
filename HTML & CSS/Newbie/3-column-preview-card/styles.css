@@ -1,0 +1,146 @@
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 5%;
+  color: white;
+}
+
+/* Container */
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Card Section */
+
+.card {
+  padding: 5%;
+}
+
+.card-heading {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.card-description {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 2;
+  opacity: 70%;
+}
+
+.card-one {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.card-two {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-three {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+/* Button  */
+
+.learn-btn {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 5rem;
+  padding: 5% 10%;
+  border-radius: 50px;
+}
+
+.learn-btn:hover {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+/* Button Text Color */
+
+.btn-yellow {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-blue {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-green {
+  color: hsl(179, 100%, 13%);
+}
+
+/* Attribute  */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries  */
+
+@media (max-width: 1024px) {
+  .container-flex {
+    flex-direction: column;
+  }
+
+  /* Card Section  */
+
+  .card {
+    padding: 15%;
+  }
+  .card-one {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card-three {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .card-description {
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 2;
+    opacity: 70%;
+    word-break: normal;
+  }
+
+  /* Button Hover  */
+
+  .learn-btn:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Button Padding Removed  */
+
+  .learn-btn {
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 0;
+    padding: 5% 10%;
+    border-radius: 50px;
+  }
+
+  /* Button Hover  */
+  .learn-btn:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+}
