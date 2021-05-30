@@ -1,5 +1,37 @@
 body {
   font-family: "Raleway", sans-serif;
+  background: url(images/bg-desktop.png) no-repeat;
+  background-position: 0 20rem;
+  background-color: hsl(229, 57%, 11%);
+  /* margin: 5% 0; */
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 0 0 0;
+}
+
+.logo-section {
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px 100px 10px 10px;
+  width: 20%;
+  margin: 2%;
+  padding: 2%;
+}
+
+.icons {
+  margin: 2rem 0 0 0rem;
+}
+
+.icon-img {
+  display: inline-block;
+  background-color: hsl(229, 57%, 11%);
+  height: 1.2rem;
+  padding: 5%;
+  margin: 2%;
+  border-radius: 10px;
 }
 
 .attribution {
