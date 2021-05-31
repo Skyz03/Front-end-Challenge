@@ -34,6 +34,116 @@ body {
   border-radius: 10px;
 }
 
+.bold {
+  font-weight: bold;
+}
+.content-section {
+  background-color: hsl(228, 56%, 26%);
+  color: white;
+  width: 40%;
+  padding: 3% 3%;
+  position: relative;
+  border-radius: 10px;
+}
+
+/* Speech Bubble  */
+
+.speech-bubble {
+  position: absolute;
+  left: 23rem;
+  bottom: 8rem;
+}
+
+.speech-text {
+  position: absolute;
+  color: black;
+  left: 23.5rem;
+  bottom: 11rem;
+}
+
+.speech-number {
+  font-size: 3rem;
+}
+
+.value-number {
+  position: absolute;
+  left: 28rem;
+  top: 7rem;
+}
+
+/* Slider */
+
+/* Number slider */
+
+.slider {
+  position: relative;
+  display: inline-block;
+  margin: -4px 6px 0 0;
+}
+
+/* Label  */
+
+.slider-label {
+  position: absolute;
+  z-index: 1;
+  top: 4px;
+  font-size: 11px;
+  color: hsla(0, 0%, 0%, 0);
+  pointer-events: none;
+  transition: transform 0.2s cubic-bezier(0.26, 0.08, 0.15, 1),
+    color 0.6s 0.6s ease-out;
+}
+
+.slider-label.isRight {
+  right: 50%;
+  margin-right: -20px;
+  left: auto;
+  transform: translateX(20px);
+}
+.slider-label.isLeft {
+  right: auto;
+  margin-left: -20px;
+  left: 50%;
+  transform: translate(-20px);
+}
+
+.slider:active .slider-label {
+  color: hsla(0, 0%, 0%, 0.7);
+  transition-delay: 0;
+}
+
+/* Input  */
+
+.slider-input {
+  appearance: none;
+  position: relative;
+  vertical-align: middle;
+  width: 500px;
+  border-radius: 20px;
+  background: hsl(0, 0%, 80%);
+  box-shadow: 0 1px 0 hsla(0, 0%, 100%, 0.6);
+  overflow: hidden;
+}
+
+.slider-input::-webkit-slider-thumb,
+.slider-input::slider-thumb {
+  appearance: none;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  border: 5px solid hsl(0, 0%, 80%);
+  cursor: pointer;
+  background: hsl(0, 0%, 40%);
+  box-shadow: inset 0 1px 2px hsla(0, 0%, 0%, 0.4);
+  transition: border-width 0.2s cubic-bezier(0.26, 0.08, 0.15, 1);
+}
+
+.slider-input:active::-webkit-slider-thumb,
+.slider-input:active::slider-thumb {
+  border: 0px solid hsl(0, 0%, 80%);
+  transition-duration: 0.1;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

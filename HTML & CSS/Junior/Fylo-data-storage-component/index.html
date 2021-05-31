@@ -16,6 +16,10 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body>
@@ -30,10 +34,18 @@
     </div>
 
     <div class="content-section">
-      <p> You’ve used 815 GB of your storage</p>
-      185 GB Left
-      0 GB
-      1000 GB
+      <p> You’ve used <span class="bold"> 815 GB</span> of your storage</p>
+      <i class="fas fa-comment-alt fa-10x speech-bubble"></i>
+      <p class="speech-text"> <span class="speech-number"> 185</span> GB left</p>
+      <div class="slider-area">
+        <div class="slider">
+          <label id="slider-label" class="slider-label isRight"></label>
+          <input id="slider-input" class="slider-input" type="range" min="0" value="0" max="1000">
+        </div>
+
+        <p> 0 GB</p>
+        <p class="value-number"> 1000 GB</p>
+      </div>
     </div>
   </div>
   <div class="attribution">
