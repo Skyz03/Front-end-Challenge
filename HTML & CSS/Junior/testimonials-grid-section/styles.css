@@ -5,37 +5,51 @@ body {
 }
 
 /* Container-Section */
-.container-flex {
-  display: flex;
+
+.container-grid-one {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  gap: 10pxx;
 }
 
-.container-grid {
+.container-grid-two {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: auto auto auto;
   gap: 20px;
 }
 
-/* Image */
+/* Profile-Section */
 
 .profile-img {
   border-radius: 100%;
 }
 
+.profile-images {
+  display: flex;
+}
+
+.profile-name {
+  line-height: 0.2;
+  margin-left: 1rem;
+}
+
+.profile-position {
+  line-height: 0.2;
+  margin-left: 1rem;
+  font-size: 13px;
+  opacity: 50%;
+}
 /* Card Section  */
 
 .card {
   border-radius: 15px;
-  padding: 5%;
+  padding: 7%;
   margin: 5px;
 }
 
-/* Moderate violet: hsl(263, 55%, 52%)
-Very dark grayish blue: hsl(217, 19%, 35%)
-Very dark blackish blue: hsl(219, 29%, 14%)
-White: hsl(0, 0%, 100%) */
-
 .card-one {
   background-color: hsl(263, 55%, 52%);
+  grid-column: span 2;
   color: white;
 }
 
@@ -51,18 +65,30 @@ White: hsl(0, 0%, 100%) */
 
 .card-four {
   background-color: hsl(219, 29%, 14%);
+  grid-column: span 2;
   color: white;
 }
 
 .card-five {
+  margin-left: 20px;
   background-color: white;
+  padding: 15%;
 }
+
+/* Content Section  */
+.content-para {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 /* Attributes Section */
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
+  margin: 3%;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
 }
