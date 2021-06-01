@@ -1,21 +1,55 @@
 body {
-  background-color: gray;
+  background-color: hsl(210, 46%, 95%);
   font-family: "Barlow Semi Condensed", sans-serif;
   margin: 5%;
 }
 
 /* Container-Section */
 
-.container-grid-one {
+.container-grid {
   display: grid;
-  grid-template-columns: 75% 25%;
-  gap: 10pxx;
+  grid-template-areas:
+    "card-one card-one card-two card-five"
+    "card-three card-four card-four card-five";
+  gap: 20px;
 }
 
-.container-grid-two {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
+/* Card Section  */
+.card {
+  margin: 5px;
+  border-radius: 15px;
+  padding: 7%;
+}
+
+.card-one {
+  grid-area: card-one;
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+}
+
+.card-two {
+  grid-area: card-two;
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+}
+
+.card-three {
+  grid-area: card-three;
+  background-color: white;
+  color: black;
+}
+
+.card-four {
+  grid-area: card-four;
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+}
+
+.card-five {
+  grid-area: card-five;
+  background-color: white;
+  margin-left: 20px;
+  padding: 15%;
 }
 
 /* Profile-Section */
@@ -24,7 +58,9 @@ body {
   border-radius: 100%;
 }
 
-.profile-images {
+/* Profile-Image */
+
+.profile-heading {
   display: flex;
 }
 
@@ -33,52 +69,19 @@ body {
   margin-left: 1rem;
 }
 
+/* Profile-name */
 .profile-position {
   line-height: 0.2;
   margin-left: 1rem;
   font-size: 13px;
   opacity: 50%;
 }
-/* Card Section  */
-
-.card {
-  border-radius: 15px;
-  padding: 7%;
-  margin: 5px;
-}
-
-.card-one {
-  background-color: hsl(263, 55%, 52%);
-  grid-column: span 2;
-  color: white;
-}
-
-.card-two {
-  background-color: hsl(217, 19%, 35%);
-  color: white;
-}
-
-.card-three {
-  background-color: white;
-  color: black;
-}
-
-.card-four {
-  background-color: hsl(219, 29%, 14%);
-  grid-column: span 2;
-  color: white;
-}
-
-.card-five {
-  margin-left: 20px;
-  background-color: white;
-  padding: 15%;
-}
 
 /* Content Section  */
 .content-para {
   font-size: 13px;
   line-height: 1.5;
+  opacity: 70%;
 }
 
 /* Attributes Section */
@@ -92,3 +95,18 @@ body {
 .attribution a {
   color: white;
 }
+
+/* Media Queries */
+
+@media (max-width: 940px) {
+  .container-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+      "card-one"
+      "card-two"
+      "card-three"
+      "card-four"
+      "card-five";
+  }
+} ;
