@@ -1,0 +1,68 @@
+body {
+  background-color: gray;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 5%;
+}
+
+/* Container-Section */
+.container-flex {
+  display: flex;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+/* Image */
+
+.profile-img {
+  border-radius: 100%;
+}
+
+/* Card Section  */
+
+.card {
+  border-radius: 15px;
+  padding: 5%;
+  margin: 5px;
+}
+
+/* Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%) */
+
+.card-one {
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+}
+
+.card-two {
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+}
+
+.card-three {
+  background-color: white;
+  color: black;
+}
+
+.card-four {
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+}
+
+.card-five {
+  background-color: white;
+}
+/* Attributes Section */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
