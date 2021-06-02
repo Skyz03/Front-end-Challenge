@@ -6,6 +6,13 @@ body {
 
 /* Container-Section */
 
+.background {
+  position: absolute;
+  left: 60%;
+  top: 5%;
+  z-index: 1;
+}
+
 .container-grid {
   display: grid;
   grid-template-areas:
@@ -25,6 +32,7 @@ body {
   grid-area: card-one;
   background-color: hsl(263, 55%, 52%);
   color: white;
+  position: relative;
 }
 
 .card-two {
@@ -84,6 +92,10 @@ body {
   opacity: 70%;
 }
 
+.content-caption {
+  position: relative;
+  z-index: 2;
+}
 /* Attributes Section */
 
 .attribution {
