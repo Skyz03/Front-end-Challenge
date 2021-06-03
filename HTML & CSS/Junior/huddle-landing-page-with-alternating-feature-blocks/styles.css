@@ -1,5 +1,6 @@
 body {
   background: url(images/bg-hero-desktop.svg) no-repeat;
+  background-color: hsl(193, 100%, 96%);
   font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
 }
@@ -10,35 +11,61 @@ body {
   margin: 5%;
 }
 
-.logo-icon {
-  width: 15%;
-}
-
 /* Top-logo-section */
 
+.top-logo-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-icon {
+  height: 10%;
+}
+
 .free-btn {
-  float: right;
   padding: 1% 5%;
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 600;
+  align-self: flex-end;
 }
 
 /* Bottom-profile-section */
 
 .bottom-profile {
   display: flex;
-  margin: 5%;
+  margin: 5% 0;
 }
 
-.text-section {
-  width: 40%;
+/* Text-Content-Section */
+
+.content-section {
+  width: 75%;
+  margin: 5% 5% 0 0;
 }
+
+.content-heading {
+  font-size: 2.5rem;
+}
+
+.content-description {
+  font-family: "Open Sans", sans-serif;
+}
+
+.get-started-btn {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 3% 15%;
+  border-radius: 50px;
+}
+/* Content-Image */
 
 .mockup-img {
   width: 100%;
 }
+
+/* Attribute Section */
 
 .attribution {
   font-size: 11px;
