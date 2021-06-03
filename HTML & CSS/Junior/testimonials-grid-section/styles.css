@@ -6,13 +6,6 @@ body {
 
 /* Container-Section */
 
-.background {
-  position: absolute;
-  left: 60%;
-  top: 5%;
-  z-index: 1;
-}
-
 .container-grid {
   display: grid;
   grid-template-areas:
@@ -26,6 +19,13 @@ body {
   margin: 5px;
   border-radius: 15px;
   padding: 7%;
+}
+
+.card-one::before {
+  content: url(images/bg-pattern-quotation.svg);
+  position: absolute;
+  left: 60%;
+  top: 5%;
 }
 
 .card-one {
