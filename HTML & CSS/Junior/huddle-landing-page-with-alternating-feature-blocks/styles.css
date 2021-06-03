@@ -65,6 +65,37 @@ body {
   width: 100%;
 }
 
+/* Grow-Together-section */
+.grow-together-section {
+  background-color: #f8f5f1;
+}
+.background-margin {
+  margin: 5% 0;
+  padding: 5%;
+}
+.card-component {
+  display: flex;
+  background-color: white;
+  padding: 5% 10% 0;
+  border-radius: 15px;
+  flex-direction: row-reverse;
+}
+
+.content-section-two {
+  font-family: "Open Sans", sans-serif;
+  width: 90%;
+  margin: 5% 5% 0 0;
+}
+
+.card-content-heading {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 2rem;
+}
+.content-description-two {
+  opacity: 50%;
+}
+
 /* Attribute Section */
 
 .attribution {
