@@ -122,6 +122,30 @@ body {
   border-radius: 15px;
 }
 
+footer {
+  color: white;
+  display: grid;
+  grid-template-areas: "info-section nav-one nav-two social-section";
+  background-color: hsl(192, 100%, 9%);
+  padding: 5%;
+}
+
+.info-section {
+  grid-area: info-section;
+}
+
+.nav-one {
+  grid-area: nav-one;
+}
+
+.nav-two {
+  grid-area: nav-two;
+}
+
+.social-section {
+  grid-area: social-section;
+}
+
 /* Attribute Section */
 
 .attribution {
