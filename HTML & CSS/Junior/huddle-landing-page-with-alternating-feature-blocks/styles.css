@@ -67,7 +67,7 @@ body {
 
 /* Grow-Together-section */
 .grow-together-section {
-  background-color: #f8f5f1;
+  background-color: rgb(243, 242, 242);
 }
 .background-margin {
   margin: 5% 0;
@@ -76,15 +76,17 @@ body {
 .card-component {
   display: flex;
   background-color: white;
-  padding: 5% 10% 0;
+  padding: 5% 10% 5%;
   border-radius: 15px;
-  flex-direction: row-reverse;
 }
 
+.rev-flex {
+  flex-direction: row-reverse;
+}
 .content-section-two {
   font-family: "Open Sans", sans-serif;
   width: 90%;
-  margin: 5% 5% 0 0;
+  margin: 5% 10% 0 0;
 }
 
 .card-content-heading {
@@ -94,6 +96,30 @@ body {
 }
 .content-description-two {
   opacity: 50%;
+}
+
+/* Content Section Three */
+
+.mockup-img-three {
+  width: 100%;
+  margin: 0 10% 0 0;
+}
+
+.content-section-three {
+  font-family: "Open Sans", sans-serif;
+  width: 90%;
+}
+
+.flowing-conversation {
+  background-color: rgb(243, 242, 242);
+}
+
+.call-to-action {
+  background-color: white;
+  margin: 0 25%;
+  padding: 3%;
+  text-align: center;
+  border-radius: 15px;
 }
 
 /* Attribute Section */
