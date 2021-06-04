@@ -17,11 +17,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+/* Logo Image  */
 .logo-icon {
   height: 10%;
 }
-
+/* Logo Button */
 .free-btn {
   padding: 1% 5%;
   border-radius: 50px;
@@ -38,7 +38,7 @@ body {
   margin: 5% 0;
 }
 
-/* Text-Content-Section */
+/* Bottom-Text-Content-Section */
 
 .content-section {
   width: 75%;
@@ -53,14 +53,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Get Started Button  */
+
 .get-started-btn {
   background-color: hsl(322, 100%, 66%);
   color: white;
   padding: 3% 15%;
   border-radius: 50px;
 }
-/* Content-Image */
-
+/* Bottom-Content-Image */
 .mockup-img {
   width: 100%;
 }
@@ -83,6 +84,8 @@ body {
 .rev-flex {
   flex-direction: row-reverse;
 }
+
+/* Text Section for 1st card component */
 .content-section-two {
   font-family: "Open Sans", sans-serif;
   width: 90%;
@@ -98,11 +101,9 @@ body {
   opacity: 50%;
 }
 
-/* Content Section Three */
-.your-user {
-  padding-bottom: 5%;
+/* Card Component Two */
+.flowing-conversation {
   background-color: white;
-  position: relative;
 }
 
 .mockup-img-three {
@@ -115,9 +116,16 @@ body {
   width: 90%;
 }
 
-.flowing-conversation {
+/* Card Component Three */
+.your-user {
+  padding-bottom: 5%;
   background-color: white;
+  position: relative;
 }
+
+/* Note: Everything else reuse the class of first component for third card component  */
+
+/* Call to action Section  */
 
 .call-to-action {
   background-color: white;
@@ -140,14 +148,22 @@ footer {
   padding: 10% 5%;
 }
 
+/* This class makes the image white  */
 footer .footer-img {
   filter: invert(90%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(200%)
     contrast(100%);
 }
 
+/* This class removes all the bullet points  */
 footer .footer-content > * {
   list-style-type: none;
 }
+
+li {
+  list-style-type: none;
+}
+
+/* Grid Section Start  */
 
 footer .footer-content {
   display: grid;
@@ -156,16 +172,13 @@ footer .footer-content {
   background-color: hsl(192, 100%, 9%);
 }
 
+/* Spaces between the list element */
 .list-comp {
   padding: 0.5rem;
 }
 
-.circle {
-  border-radius: 50%;
-  padding: 0.5rem;
-  border: 1px solid white;
-}
-
+/* Grid Area Specified for each element  */
+/* Double GRID specified  */
 .info-section {
   grid-area: info-section;
   display: grid;
@@ -173,15 +186,14 @@ footer .footer-content {
   font-size: 15px;
 }
 
-li {
-  list-style-type: none;
-}
-
+/* Email Phone icon Element  */
 .icons {
   grid-area: icons;
   margin: 5%;
+  padding: 0.75rem 0;
 }
 
+/* Description for the Icons  */
 .description {
   grid-area: description;
 }
@@ -200,6 +212,14 @@ li {
 
 .social-icon {
   display: flex;
+}
+
+/*  SOCIAL-ICON-SECTION */
+/* The circle for the social icons  */
+.circle {
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: 1px solid white;
 }
 
 .copyright {
