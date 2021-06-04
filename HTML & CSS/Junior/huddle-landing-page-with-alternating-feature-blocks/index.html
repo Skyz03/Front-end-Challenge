@@ -14,6 +14,10 @@
   <!-- CSS StyleSheet -->
   <link rel="stylesheet" href="styles.css">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
@@ -115,38 +119,62 @@
   </main>
 
   <footer>
-    <img src="images/logo.svg" alt="">
+    <img src="images/logo.svg" alt="" class="footer-img">
 
     <div class="footer-content">
-      <ul>
+
+
+      <ul class="info-section">
         <!-- Need to include the aria hidden for the svg icons  -->
-        <li>
-          <img src="images/icon-location.svg" alt="">
-          <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua</span>
-        </li>
 
-        <p>+1-543-123-4567</p>
-        <p> example@huddle.com</p>
+        <ul class="icons">
+          <li> <img class="icons" src="images/icon-location.svg" alt=""></li>
+          <li><img class="icons" src="images/icon-phone.svg" alt=""></li>
+          <li><img class="icons" src="images/icon-email.svg" alt=""></li>
+        </ul>
+
+        <ul class="description">
+          <li class="list-comp">
+            <p style="display: inline"> Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </li>
+
+          <li class="list-comp">
+            <span>+1-543-123-4567</span>
+          </li>
+
+          <li class="list-comp">
+            <span> example@huddle.com</span>
+          </li>
+        </ul>
+
       </ul>
+
+
+      <ul class="nav-one">
+        <li class="list-comp"> About Us</li>
+        <li class="list-comp"> What We Do</li>
+        <li class="list-comp"> FAQ</li>
+      </ul>
+
+      <ul class="nav-two">
+        <li class="list-comp"> Career</li>
+        <li class="list-comp"> Blog</li>
+        <li class="list-comp"> Contact Us</li>
+      </ul>
+
+      <ul class="social-section">
+        <div class="social-icon">
+          <li class="list-comp"><i class="fab fa-twitter circle"></i></li>
+          <li class="list-comp"><i class="fab fa-facebook circle"></i></li>
+          <li class="list-comp"><i class="fab fa-instagram circle"></i></li>
+        </div>
+
+        <p class="copyright"> &copy; Copyright 2018 Huddle. All rights reserved.</p>
+      </ul>
+
     </div>
-
-
-    <p> About Us</p>
-    <p> What We Do</p>
-    <p> FAQ</p>
-    </div>
-
-    <div class="nav-two">
-      <p> Career</p>
-      <p> Blog</p>
-      <p> Contact Us</p>
-    </div>
-
-    <div class="social-section">
-      &copy; Copyright 2018 Huddle. All rights reserved.
   </footer>
-  </div>
 
   <section class="develop">
     <p class="attribution">
