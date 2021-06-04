@@ -1,7 +1,6 @@
 body {
   background: url(images/bg-hero-desktop.svg) no-repeat;
   background-color: hsl(193, 100%, 96%);
-  font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
 }
 
@@ -299,6 +298,12 @@ footer .footer-content {
 }
 
 @media (max-width: 740px) {
+  body {
+    background: url(images/bg-hero-mobile.svg) no-repeat;
+    background-color: hsl(193, 100%, 96%);
+    font-family: "Poppins", sans-serif;
+  }
+
   .call-to-action {
     background-color: white;
     margin: 0 5%;
@@ -372,3 +377,42 @@ footer .footer-content {
 }
 
 /* Hover States  */
+.free-btn:hover {
+  padding: 1% 5%;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-end;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 3% 15%;
+  border-radius: 50px;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.nav-one li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-two li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.social-icon .list-comp:hover {
+  color: hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+
+.circle:hover {
+  border: 1px solid hsl(322, 100%, 66%);
+  cursor: pointer;
+}
