@@ -67,10 +67,9 @@ body {
 
 /* Grow-Together-section */
 .grow-together-section {
-  background-color: rgb(243, 242, 242);
+  background-color: white;
 }
 .background-margin {
-  margin: 5% 0;
   padding: 5%;
 }
 .card-component {
@@ -78,6 +77,7 @@ body {
   background-color: white;
   padding: 5% 10% 5%;
   border-radius: 15px;
+  box-shadow: 1px 1px 10px hsl(208, 11%, 55%);
 }
 
 .rev-flex {
@@ -99,6 +99,11 @@ body {
 }
 
 /* Content Section Three */
+.your-user {
+  padding-bottom: 5%;
+  background-color: white;
+  position: relative;
+}
 
 .mockup-img-three {
   width: 100%;
@@ -111,15 +116,19 @@ body {
 }
 
 .flowing-conversation {
-  background-color: rgb(243, 242, 242);
+  background-color: white;
 }
 
 .call-to-action {
   background-color: white;
   margin: 0 25%;
-  padding: 3%;
+  padding: 3% 5%;
   text-align: center;
   border-radius: 15px;
+  box-shadow: 1px 1px 10px hsl(208, 11%, 55%);
+  position: absolute;
+  bottom: -8rem;
+  right: 5rem;
 }
 
 /* Footer */
