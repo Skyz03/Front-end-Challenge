@@ -28,6 +28,8 @@ body {
   font-size: 18px;
   font-weight: 600;
   align-self: flex-end;
+  border: 0;
+  box-shadow: 1px 1px 10px hsl(208, 11%, 55%);
 }
 
 /* Bottom-profile-section */
@@ -60,10 +62,11 @@ body {
   color: white;
   padding: 3% 15%;
   border-radius: 50px;
+  border: 0;
 }
 /* Bottom-Content-Image */
 .mockup-img {
-  width: 100%;
+  max-width: 50%;
 }
 
 /* Grow-Together-section */
@@ -108,7 +111,8 @@ body {
 }
 
 .mockup-img-three {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 50%;
   margin: 0 10% 0 0;
 }
 
@@ -295,6 +299,13 @@ footer .footer-content {
   .mail-icon {
     padding-top: 0;
   }
+  .mockup-img {
+    max-width: 100%;
+  }
+  .mockup-img-three {
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 @media (max-width: 740px) {
@@ -374,6 +385,14 @@ footer .footer-content {
   .mail-icon {
     padding-top: 1rem;
   }
+
+  .mockup-img {
+    max-width: 100%;
+  }
+  .mockup-img-three {
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 /* Hover States  */
@@ -386,6 +405,7 @@ footer .footer-content {
   align-self: flex-end;
   opacity: 70%;
   cursor: pointer;
+  border: 0;
 }
 
 .get-started-btn:hover {
@@ -393,6 +413,7 @@ footer .footer-content {
   color: white;
   padding: 3% 15%;
   border-radius: 50px;
+  border: 0;
   opacity: 70%;
   cursor: pointer;
 }
