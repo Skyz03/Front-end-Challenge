@@ -51,6 +51,11 @@ body {
   font-weight: 600;
 }
 
+.animation {
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
 /* Attribution Section  */
 
 .attribution {
