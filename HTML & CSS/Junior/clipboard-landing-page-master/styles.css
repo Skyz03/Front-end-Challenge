@@ -85,6 +85,19 @@ body {
   opacity: 60%;
 }
 
+/* Access Section  */
+#access-section {
+  text-align: center;
+}
+
+.access-heading {
+  font-size: 2.5rem;
+}
+
+.access-description {
+  opacity: 60%;
+  padding: 0 25% 7%;
+}
 /* Attribution Section  */
 
 .attribution {
