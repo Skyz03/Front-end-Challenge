@@ -12,17 +12,17 @@
 body {
   background: url(images/bg-header-desktop.png) no-repeat;
   font-size: 18px;
+  text-align: center;
+}
+
+.big-heading {
+  font-size: 2.5rem;
 }
 
 /* Hero Section  */
 
 #hero-section {
-  text-align: center;
   padding: 7% 25%;
-}
-
-.hero-heading {
-  font-size: 2.5rem;
 }
 
 .hero-description {
@@ -41,7 +41,6 @@ body {
 }
 
 .mac-btn {
-  /* margin: 2%; */
   padding: 2% 5%;
   border-radius: 25px;
   background-color: var(--color-blue);
@@ -57,10 +56,6 @@ body {
 }
 
 /* Snippets Section  */
-
-#snippets-section {
-  text-align: center;
-}
 
 .heading-title {
   font-size: 2rem;
@@ -87,12 +82,7 @@ body {
 
 /* Access Section  */
 #access-section {
-  text-align: center;
   padding: 7% 0 5%;
-}
-
-.access-heading {
-  font-size: 2.5rem;
 }
 
 .access-description {
@@ -101,14 +91,6 @@ body {
 }
 
 /* SuperCharge Section  */
-
-#superCharge-section {
-  text-align: center;
-}
-
-.superCharge-heading {
-  font-size: 2.5rem;
-}
 
 .superCharge-description {
   opacity: 60%;
@@ -133,7 +115,6 @@ body {
 
 /* Sponser Section */
 #sponser-section {
-  text-align: center;
   padding: 5% 0;
 }
 
@@ -143,12 +124,7 @@ body {
 
 /* Call to Action Section  */
 #cta {
-  text-align: center;
   margin: 0 0 10%;
-}
-
-.cta-heading {
-  font-size: 2.5rem;
 }
 
 .cta-description {
@@ -169,7 +145,6 @@ body {
 }
 
 .mac2-btn {
-  /* margin: 2%; */
   padding: 1% 3%;
   border-radius: 25px;
   background-color: var(--color-blue);
@@ -185,6 +160,7 @@ footer {
   padding: 3% 5%;
   display: flex;
   background-color: rgb(235, 235, 235);
+  text-align: left;
 }
 
 .logo-section {
@@ -205,7 +181,6 @@ footer {
 
 .footer-nav-item {
   list-style: none;
-  /* margin: 2%; */
 }
 
 footer a {
@@ -224,12 +199,16 @@ footer a {
   margin: 5%;
 }
 
-/* Attribution Section  */
-
+/* Attribution Section */
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* MEDIA QUERIES  */
+
+@media (max-width: 740px) {
 }
