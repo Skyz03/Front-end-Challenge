@@ -85,6 +85,31 @@ body {
   opacity: 60%;
 }
 
+/* Footer section */
+
+footer {
+  padding: 5% 5%;
+  display: flex;
+}
+
+.logo-section {
+  margin: 0 5%;
+  width: 20%;
+}
+
+.footer-nav {
+  width: 80%;
+  display: grid;
+}
+.footer-nav-item {
+  list-style: none;
+  /* margin: 2%; */
+}
+.social-icons {
+  width: 20%;
+  align-items: flex-end;
+}
+
 /* Access Section  */
 #access-section {
   text-align: center;
