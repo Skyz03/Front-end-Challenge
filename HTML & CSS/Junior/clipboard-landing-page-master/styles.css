@@ -85,31 +85,6 @@ body {
   opacity: 60%;
 }
 
-/* Footer section */
-
-footer {
-  padding: 5% 5%;
-  display: flex;
-}
-
-.logo-section {
-  margin: 0 5%;
-  width: 20%;
-}
-
-.footer-nav {
-  width: 80%;
-  display: grid;
-}
-.footer-nav-item {
-  list-style: none;
-  /* margin: 2%; */
-}
-.social-icons {
-  width: 20%;
-  align-items: flex-end;
-}
-
 /* Access Section  */
 #access-section {
   text-align: center;
@@ -169,6 +144,7 @@ footer {
 /* Call to Action Section  */
 #cta {
   text-align: center;
+  margin: 0 0 10%;
 }
 
 .cta-heading {
@@ -201,6 +177,51 @@ footer {
   box-shadow: 1px 3px 10px var(--color-blue);
   color: #fff;
   font-weight: 600;
+}
+
+/* Footer section */
+
+footer {
+  padding: 3% 5%;
+  display: flex;
+  background-color: rgb(235, 235, 235);
+}
+
+.logo-section {
+  margin: 0 5%;
+  width: 15%;
+}
+
+.footer-logo {
+  height: 75%;
+  width: 70%;
+}
+
+.footer-nav {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-nav-item {
+  list-style: none;
+  /* margin: 2%; */
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.social-icons {
+  width: 20%;
+  align-items: flex-end;
+  text-align: center;
+  align-self: center;
+}
+
+.icon {
+  margin: 5%;
 }
 
 /* Attribution Section  */
