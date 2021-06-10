@@ -13,6 +13,7 @@ body {
   background: url(images/bg-header-desktop.png) no-repeat;
   font-size: 18px;
   text-align: center;
+  margin: 0;
 }
 
 .big-heading {
@@ -164,7 +165,7 @@ body {
 /* Footer section */
 
 footer {
-  padding: 3% 5%;
+  padding: 2% 5%;
   display: flex;
   flex-direction: row;
   background-color: #f5f6f8;
@@ -279,6 +280,9 @@ footer a {
 /* MEDIA QUERIES  */
 
 @media (max-width: 1000px) {
+  body {
+    margin: 0;
+  }
   #hero-section {
     padding: 7% 10%;
   }
