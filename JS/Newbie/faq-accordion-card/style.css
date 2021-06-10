@@ -1,11 +1,11 @@
 :root {
-  --color-Very-dark-desaturated-blue: hsl(238, 29%, 16%);
-  --color-Soft-red: hsl(14, 88%, 65%);
-  --color-Soft-violet: hsl(273, 75%, 66%);
-  --color-Soft-blue: hsl(240, 73%, 65%);
-  --color-Very-dark-grayish-blue: hsl(237, 12%, 33%);
-  --color-Dark-grayish-blue: hsl(240, 6%, 50%);
-  --color-Light-grayish-blue: hsl(240, 5%, 91%);
+  --color-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --color-soft-red: hsl(14, 88%, 65%);
+  --color-soft-violet: hsl(273, 75%, 66%);
+  --color-soft-blue: hsl(240, 73%, 65%);
+  --color-dark-grayish-blue: hsl(237, 12%, 33%);
+  --color-dark-grayish-blue2: hsl(240, 6%, 50%);
+  --color-light-grayish-blue: hsl(240, 5%, 91%);
 }
 
 * {
@@ -14,12 +14,14 @@
 }
 
 body {
+  /* background-image: url(images/bg-pattern-desktop.svg); */
   background: linear-gradient(
-    to bottom left,
-    var(--color-Soft-violet),
-    var(--color-Soft-blue)
-  );
-  margin: 0;
+      180deg,
+      var(--color-soft-violet),
+      var(--color-soft-blue)
+    )
+    no-repeat;
+  background-size: cover;
 }
 
 /* Container-section */
@@ -27,20 +29,26 @@ body {
 .container-flex {
   background-color: #fff;
   display: flex;
-  margin: 8% 20% 9.2% 15%;
+  margin: 8% 15% 9.2% 15%;
   border-radius: 15px;
   box-shadow: 1px 0px 50px black;
-  padding: 3% 5% 0;
+  /* padding: 3% 5% 0; */
 }
 
 /* IMAGE SECTION  */
+
+.img-section {
+  max-width: 90%;
+  padding: 5% 5% 5% 0;
+}
 
 .box-img {
   position: absolute;
 }
 
 .women-img {
-  /* max-width: 100%; */
+  position: relative;
+  left: 50px;
 }
 
 /* CONTENT SECTION  */
