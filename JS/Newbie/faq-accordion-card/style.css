@@ -40,7 +40,7 @@ body {
 
 .img-section {
   max-width: 90%;
-  padding: 5% 5% 5% 0;
+  padding: 5% 0;
 }
 
 .box-img {
@@ -57,11 +57,24 @@ body {
 
 /* CONTENT SECTION  */
 .content-section {
-  margin: 5%;
+  margin: 5% 5% 5% 0;
 }
 
 .content-heading {
   font-size: 2.5rem;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p::after {
+  content: "";
+  background: url(images/icon-arrow-down.svg) no-repeat;
+  height: 1rem;
+  width: 1rem;
+  justify-content: flex-end;
 }
 
 .attribution {
