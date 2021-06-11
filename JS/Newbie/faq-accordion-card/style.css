@@ -29,9 +29,10 @@ body {
 .container-flex {
   background-color: #fff;
   display: flex;
-  margin: 8% 15% 9.2% 15%;
+  margin: 5% 15% 5% 15%;
   border-radius: 15px;
   box-shadow: 1px 0px 50px black;
+  overflow: hidden;
   /* padding: 3% 5% 0; */
 }
 
@@ -44,11 +45,14 @@ body {
 
 .box-img {
   position: absolute;
+  top: 40%;
+  left: 8.5%;
+  z-index: 1;
 }
 
 .women-img {
   position: relative;
-  left: 50px;
+  right: 17%;
 }
 
 /* CONTENT SECTION  */
