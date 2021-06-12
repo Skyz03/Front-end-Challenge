@@ -57,7 +57,7 @@ body {
 
 /* CONTENT SECTION  */
 .content-section {
-  margin: 5% 5% 5% 0;
+  margin: 5% 10% 5% 0;
 }
 
 .content-heading {
@@ -68,6 +68,9 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.25rem;
+  cursor: pointer;
 }
 p::after {
   content: "";
@@ -77,6 +80,22 @@ p::after {
   justify-content: flex-end;
 }
 
+/* DROPDOWN Button  */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  overflow: auto;
+}
+
+.show {
+  display: contents;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
