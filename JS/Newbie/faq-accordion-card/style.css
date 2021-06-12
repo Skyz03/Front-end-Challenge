@@ -55,9 +55,17 @@ body {
   right: 17%;
 }
 
+/* Horizontal RULE  */
+
+hr {
+  margin: 5% 0;
+  opacity: 30%;
+}
+
 /* CONTENT SECTION  */
 .content-section {
   margin: 5% 10% 5% 0;
+  width: 38%;
 }
 
 .content-heading {
@@ -68,8 +76,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-weight: 700;
-  font-size: 1.25rem;
+  font-weight: 400;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 p::after {
@@ -79,7 +87,9 @@ p::after {
   width: 1rem;
   justify-content: flex-end;
 }
-
+.bold {
+  font-weight: 700;
+}
 /* DROPDOWN Button  */
 
 .dropdown {
