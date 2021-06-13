@@ -33,21 +33,41 @@
       </div>
     </div>
 
-    <div class="content-section">
-      <p> You’ve used <span class="bold"> 815 GB</span> of your storage</p>
-      <i class="fas fa-comment-alt fa-10x speech-bubble"></i>
-      <p class="speech-text"> <span class="speech-number"> 185</span> GB left</p>
-      <div class="slider-area">
-        <div class="slider">
-          <label id="slider-label" class="slider-label isRight"></label>
-          <input id="slider-input" class="slider-input" type="range" min="0" value="0" max="1000">
-        </div>
 
-        <p> 0 GB</p>
-        <p class="value-number"> 1000 GB</p>
+    <!-- This is for the color Bar -->
+    <div class="content-section">
+      <p class="content-heading"> You’ve used <span class="bold"> 815 GB</span> of your storage</p>
+      <div class="status-bar-wrapper" aria-hidden="true">
+        <div class="data-storage__status-bar" aria-hidden="true">
+          <div class="status-bar-circle" aria-hidden="true"></div>
+        </div>
+      </div>
+
+
+      <div class="data-storoage__min-max-value">
+        <p>0 GB</p>
+        <p>1000 GB</p>
+      </div>
+      <div class="data-storage__unused-storage">
+        <span class="bytes">185</span> GB Left
       </div>
     </div>
   </div>
+
+  <!-- 
+  <i class="fas fa-comment-alt fa-10x speech-bubble"></i>
+  <p class="speech-text"> <span class="speech-number"> 185</span> GB left</p>
+  <div class="slider-area">
+    <div class="slider">
+      <label id="slider-label" class="slider-label isRight"></label>
+      <input id="slider-input" class="slider-input" type="range" min="0" value="0" max="1000">
+    </div> -->
+
+  <!-- <p> 0 GB</p>
+  <p class="value-number"> 1000 GB</p>
+  </div>
+  </div>
+  </div> -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.

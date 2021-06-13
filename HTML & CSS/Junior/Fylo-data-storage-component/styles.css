@@ -144,6 +144,77 @@ body {
   transition-duration: 0.1;
 }
 
+/* Status Bar */
+.status-bar-wrapper {
+  background-color: hsl(229, 57%, 11%);
+  padding: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.data-storage__status-bar {
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  padding: 2px;
+  border-radius: 10px;
+
+  width: 81.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar-circle {
+  background-color: #fff;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.data-storoage__min-max-value {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.data-storage__unused-storage {
+}
+
+.data-storage__unused-storage {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(229, 7%, 55%);
+
+  background-color: white;
+  width: 175px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  position: absolute;
+  top: -64px;
+  right: 40px;
+}
+
+.data-storage__unused-storage::after {
+  content: "";
+  width: 0;
+  height: 0;
+  width: 60px;
+  border-top: solid 22px transparent;
+  border-bottom: solid 22px transparent;
+  border-right: solid 22px white;
+
+  position: absolute;
+  bottom: -21px;
+  right: 0;
+}
+
+.bytes {
+  color: black;
+  font-size: 38px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

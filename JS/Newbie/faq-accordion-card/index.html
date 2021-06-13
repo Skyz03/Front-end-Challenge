@@ -2,90 +2,68 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kumbh+Sans:400,700" />
 
-  <title>FAQ Accordion Card</title>
-
-  <!-- Google Fonts  -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- CSS StyleSheet  -->
-  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
 </head>
 
 <body>
-
-  <img class="box-img" src="images/illustration-box-desktop.svg" alt="">
-
-  <div class="container-flex">
-
-    <div class="img-section">
-      <img class="women-img" src="images/illustration-woman-online-desktop.svg" alt="">
+  <section class="card">
+    <div class="illustration-wrapper">
+      <div class="illustration-mobile">
+        <img class="illustration-mobile-bg" src="./images/bg-pattern-mobile.svg"
+          alt="Floating rounded rectangle shape" />
+        <img class="illustration-mobile-woman" src="./images/illustration-woman-online-mobile.svg" alt="" />
+      </div>
+      <div class="illustration-desktop">
+        <img class="illustration-desktop-woman" src="./images/illustration-woman-online-desktop.svg" alt="" />
+      </div>
     </div>
-
-    <div class="content-section">
-      <h1 class="content-heading"> FAQ</h1>
-
-      <div class="dropdown">
-        <p onclick="dropDown()" class="dropbtn" id="p-one"> How many team members can I invite?</p>
-        <div class="dropdown-content" id="myDropdown">
-          <span> You can invite up to 2 additional users on the Free plan. There is no limit on
-            team members for the Premium plan.</span>
+    <div class="accordion">
+      <h1>FAQ</h1>
+      <details>
+        <summary>How many team members can I invite?</summary>
+        <div class="details-content">
+          You can invite up to 2 additional users on the Free plan. There is
+          no limit on team members for the Premium plan.
         </div>
-      </div>
-
-      <hr>
-
-      <div class="dropdown">
-        <p onclick="dropDown2()" class="dropbtn" id="p-two"> What is the maximum file upload size?</p>
-        <div class="dropdown-content" id="myDropdown2">
-          No more than 2GB. All files in your account must fit your allotted storage space.
+      </details>
+      <details open>
+        <summary>What is the maximum file upload size?</summary>
+        <div class="details-content">
+          No more than 2GB. All files in your account must fit your allotted
+          storage space.
         </div>
-      </div>
-
-      <hr>
-
-      <div class="dropdown">
-        <p onclick="dropDown3()" class="dropbtn" id="p-three"> How do I reset my password?</p>
-        <div class="dropdown-content" id="myDropdown3">
-          Click “Forgot password” from the login page or “Change password” from your profile page.
-          A reset link will be emailed to you.
+      </details>
+      <details>
+        <summary>How do I reset my password?</summary>
+        <div class="details-content">
+          Click “Forgot password” from the login page or “Change password”
+          from your profile page. A reset link will be emailed to you.
         </div>
-      </div>
-
-      <hr>
-
-      <div class="dropdown">
-        <p onclick="dropDown4()" class="dropbtn" id="p-four"> Can I cancel my subscription?</p>
-        <div class="dropdown-content" id="myDropdown4">
-          Yes! Send us a message and we’ll process your request no questions asked.
+      </details>
+      <details>
+        <summary>Can I cancel my subscription?</summary>
+        <div class="details-content">
+          Yes! Send us a message and we’ll process your request no questions
+          asked.
         </div>
-      </div>
-
-      <hr>
-
-      <div class="dropdown">
-        <p onclick="dropDown5()" class="dropbtn" id="p-five"> Do you provide additional support?</p>
-        <div class="dropdown-content" id="myDropdown5">
-          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+      </details>
+      <details>
+        <summary>Do you provide additional support?</summary>
+        <div class="details-content">
+          Chat and email support is available 24/7. Phone lines are open
+          during normal business hours.
         </div>
-      </div>
-      <hr>
-
+      </details>
     </div>
-  </div>
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Skyz03</a>.
-  </div>
-
-  <script src="index.js"></script>
+  </section>
 </body>
 
 </html>
